@@ -1,0 +1,22 @@
+create table registration(rno number(10) primary key,vehicle varchar(10)not null,wheeler number(2)not null
+,type varchar(15)not null,chechis varchar(15)not null,name varchar(20)not null
+,relation varchar(30)not null,id number(10),
+mob number(10)not null,addr varchar(100)not null);
+
+
+
+insert into registration values(1001,'TN/23/23',2,'cycle','12345','Arun','student',205112065,9025635753,'NITT');
+
+
+create table complaint(RNO number(4),DAT varchar(30));
+
+
+insert into complaint values()
+
+
+Select * 
+from registration 
+where id = (select max(id) from registration )
+
+create table complaint (rno number(10));
+

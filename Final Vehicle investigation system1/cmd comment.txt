@@ -1,0 +1,47 @@
+          /*            com.Connection = con;
+                      com.CommandText = "select max(mob)  from registration ";
+                      dr = com.ExecuteReader();
+                      dr.Read();
+
+                   //   RNO.Text = dr(max(MOB));
+                            
+                    */
+                    //dr = com.ExecuteScalar();
+                     // = Convert.ToInt32(com.ExecuteScalar());
+
+             //   OracleCommand command = new OracleCommand("select max(mob)  from registration", con);
+               // int d= Convert.ToInt32(command.ExecuteScalar());
+                //con.Close();
+                    
+                 //   string s = Convert.ToString(d);
+                    //d.ToString;
+                   // MessageBox.Show(Convert.ToString(s));
+                    
+               //     dr.Dispose();
+
+                     
+                  //  MessageBox.Show(dr.GetString(1));
+                  
+                    //System.Windows.Forms.DialogResult MessageBox
+
+                
+         /*       if (dr.Read())
+                {
+                      MessageBox.Show("correct");
+                 //   OracleString oraclestring1 = dr.GetOracleString(0);
+                   // Console.WriteLine("OracleString " + oraclestring1.ToString());
+               //       string str=Convert.ToString(dr.GetValue(0));
+                    //string str=dr.GetValue(0);
+                    //Console.WriteLine(dr.GetValue(0));
+                 //     MessageBox.Show(str);
+             *///   }
+         //       else
+           //          MessageBox.Show("Oops");
+                    
+               //     Console.WriteLine(dr);
+                    
+                 //   MessageBox.Show(dr);
+
+                   //com.CommandText = "select * from login where rn='" + textBox1.Text + "' and name='" + textBox2.Text + "'";
+                            
+
